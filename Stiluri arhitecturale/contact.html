@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Stiluri Arhitecturale</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Stiluri arhitecturale</a>
+            <ul>
+                <li><a href="proiect.html">Prezentare</a></li>
+                <li><a href="images.html">Imagini</a></li>
+                <li><a href="contact.html" class="active">Despre</a></li>
+            </ul>
+        </header>
+        <section>
+            <a href="#sec" id="btn">↓</a>
+        </section>
+        <div class="sec" id="sec">
+            <h2>Project realizat de:</h2>
+            <h3>Barbulescu Maria</h3>
+            <p>clasa: XII-A<br><br></p>
+            <h3>Chivu Iarina</h3>
+            <p>clasa: XII-A<br><br></p>
+            
+        </div>
+        
+        <script>
+            
+            let btn = document.getElementById('btn');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function() {
+                let value = window.scrollY;
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+    </html>

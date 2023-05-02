@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portugalia</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Portugalia</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Portugalia</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Informatii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Atractii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#details" class="nav__link">Detalii</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Descopera Portugalia</span>
+                        <h1 class="home__data-title">Atractii turistice. <br>  <b>Cele mai frumoase <br> peisaje</b></h1>
+                        <a href="#about" class="button">Exploreaza</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/stefi_zupu/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">cele mai frumoase 5 locuri de vizitat</span>
+                            <a href="#discover" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Informatii generale</h2>
+                        <p class="about__description">Portugalia ste o țară în Peninsula Iberică din Europa de Sud-Vest. Este cea mai vestică țară din Europa continentală. La vest și sud are coastă la Oceanul Atlantic, iar la est și nord se învecinează cu Spania. Frontiera dintre Portugalia și Spania⁠ are 1.214 km lungime și este considerată cea mai lungă graniță neîntreruptă în cadrul Uniunii Europene. Republica include, de asemenea, arhipelagurile Azore și Madeira din Atlantic, ambele regiuni autonome cu propriile lor guverne regionale⁠.
+                        </p>
+                        <a href="#discover" class="button">Atractii turistice</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Atractii turistice</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#obidos"><img src="assets/img/discover1.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Obidos</h2>
+                                <span class="discover__description" >vechi oras medieval</span>
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#coimbra"><img src="assets/img/discover2.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Coimbra</h2>
+                                <span class="discover__description">fosta capitala sec, XII</span>\
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#madeira"><img src="assets/img/discover3.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Madeira</h2>
+                                <span class="discover__description">arhipelag</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#algarve"><img src="assets/img/discover4.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Algarve</h2>
+                                <span class="discover__description">lagune si golfuri</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#fatima"><img src="assets/img/discover5.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Fatima</h2>
+                                <span class="discover__description">istorie</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 6 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#santa"><img src="assets/img/discover6.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Santa Maria de Belem</h2>
+                                <span class="discover__description">resedinta oficiala a presedintelui portughez</span>
+                            </div>
+                            </div>
+                        <!--==================== DISCOVER 7 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#lisabona"><img src="assets/img/discover7.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Lisabona</h2>
+                                <span class="discover__description">capitala</span>
+                            </div> </div>
+                        <!--==================== DISCOVER 8 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#evora"><img src="assets/img/discover8.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Evora</h2>
+                                <span class="discover__description">oras vechi</span>
+                            </div> </div>-
+                        <!--==================== DISCOVER 9 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#azore"><img src="assets/img/discover9.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Insulele Azore</h2>
+                                <span class="discover__description">insule vulcanice</span>
+                            </div> </div>
+                        <!--==================== DISCOVER 10 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#real"><img src="assets/img/discover10.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Vila Real</h2>
+                                <span class="discover__description">oras si municipalitate din Regiunea Norte</span>
+                            </div> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OBIDOS ====================-->
+            <section class="about section" id="obidos">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Obidos</h2>
+                        <p class="about__description">Situat in Districtul Leiria, orasul Obidos domina imprejurimile de pe dealul pe care este amplasat, impresionand cu zidul de aprare fortificat ce il inconjoara. Vechiul oras medieval impresioneaza cu strazi, piete, case si fortificatii tipice Evului Mediu care fac din Obidos o atractie turistica frecvent vizitata. Vedeta orasului este impresionantul castel al orasului, iar Praia del Rey este o destinatie de top pentru amatorii de golf. Renumelui orasului i se adauga si vestitul lichior de cirese - Ginjinha.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/obidos.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== COIMBRA ====================-->
+            <section class="about section" id="coimbra">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Coimbra</h2>
+                        <p class="about__description">Aflat la 190 km nord de Lisabona, Coimbra, fosta capitala in secolele XII - XIII si important centru universitar, este situat pe malurile Raului Mondego si este al treilea oras ca insemnatate dupa Lisabona si Porto. Orasul are radacini adanci ce duc pana in Evul Mediu. Sub dominatia araba, in secolul al VIII-lea, Coimbra a devenit un important nod strategic din punct de vedere comercial, intre sudul stapanit de mauri si nordul aflat sub semnul crestinatatii. Orasul este unul foarte pitoresc, stradutele sale inguste invitandu-te sa le descoperi farmecul si unicitatea. Principalele atractii ale orasului sunt vechea Universitate, Catedrala Veche si Catedrala Noua.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/coimbra.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== MADEIRA ====================-->
+            <section class="about section" id="madeira">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Madeira</h2>
+                        <p class="about__description">Arhipelagul Madeira este compus din doua insule locuite: Madeira si Porto Santo si trei insule nelocuite ce formeaza, impreuna cu Ilhas Selvagens (Insulele Salbatice), Regiunea Autonoma Madeira. Insulele, situate in nordul Oceanului Atlantic la 860 de kilometri de Lisabona, au fost descoperite in 1418 de navigatorii portughezi Joao Goncalves Zarco si Tristao Vaz Teixeira. Padurile ce acopereau insulele au fost defrisate pentru infiintarea de plantatii si culturi agricole. Joao Goncalves, cel care a pus bazele orasului Funchal, este inmormantat in Catedrala Santa Clara.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/madeira.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== ALGARVE ====================-->
+            <section class="about section" id="algarve">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Algarve</h2>
+                        <p class="about__description">Numita oficial Regiao do Algarve, Algarve este regiunea cea mai sudica a Portugaliei, cu resedinta administrativa la Faro. Intesata de lagune, golfuri idilice, pesteri, faleze spectaculoase, Algarve este un loc ideal pentru cei ce prefera activitatile in aer liber sau de plaja. Turismul si activitatile conexe sunt extinse si alcatuiesc cea mai mare parte a economiei zonei. Algarve este printre cele mai populare destinatii turistice din Portugalia, populatia sa dublandu-se in sezonul de vara datorita unui aflux sporit de vizitatori.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/algarve.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== FATIMA ====================-->
+            <section class="about section" id="fatima">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Fatima</h2>
+                        <p class="about__description">Avand o aura deosebita, Fatima este un oras care intr-un fel sau altul pastreaza in el o istorie bogata si elementele definitorii ale acesteia. Daca esti fascinat de trecut, odata ce vei trece de poarta acestui oras vei intra intr-o lume in care poti lua contact cu istoria intr-un mod direct si personal. Faimos prin viziunile religioase ale unor copii, Fatima a devenit loc sfant de rugaciune si destinatie a pelerinajelor religioase ce au loc in Portugalia in fiecare an. Se spune ca Fecioara Maria s-a aratat aici in fata unor copii de pastori saraci, in 1917, pe pasunea Cova da Iria si le-a prevestit unele dintre evenimentele importante ale omenirii.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/fatima.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SANTA ====================-->
+            <section class="about section" id="santa">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Santa Maria de Belem</h2>
+                        <p class="about__description">Santa Maria de Belem este districtul cel mai incarcat de istorie si cultura al Lisabonei, de unde in 1497, Vasco da Gama la bordul vasului Sao Gabriel, a plecat spre India. Fosta resedinta regala Belem Palace, este in prezent resedinta oficiala a presedintelui portughez. In Belem mai poate fi vizitat Padrao dos Descobrimentos, monument ridicat in onoarea lui Henri Navigatorul, iar apoi Mosteiro dos Jeronimos, manastirea cu o arhitectura unica - Manueline, un amalgam intre stilurile gotic si renascentist dar si stiluri externe Europei aduse aici de exploratori. 
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/santa.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== LISABONA ====================-->
+            <section class="about section" id="lisabona">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Lisabona</h2>
+                        <p class="about__description">Scaldata in lumina Atlanticului, incoronata de castelul São Jorge si intinzandu-se pe sapte coline, Lisabona este una dintre cele mai frapante vizual capitale ale Europei, un oras in care modernul si clasicul se imbina intr-un mod spectaculos. Aici vei gasi numeroase atractii, faimos fiind cartierul istoric Belem cu Mosteiro dos Jerónimos, o manastire aflata in Patrimoniul UNESCO, a carei constructie a inceput in 1501. Monumentul are o arhitectura unica, in stil manuelin, un amalgam de stiluri, de la cel gotic si renascentist pana la stiluri aduse de exploratori din afara Europei.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/lisabona.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== EVORA ====================-->
+            <section class="about section" id="evora">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Evora</h2>
+                        <p class="about__description">Orasul Evora este situat in Provincia Alentejo din zona de campie din sudul Raului Tagus la circa 130 km de Lisabona. Datorita starii de conservare a centrului orasului vechi, inconjurat de zidurile medievale si a unui mare numar de monumente ce dateaza din perioade istorice diferite, ce includ si un templu roman, Evora este inscris pe Lista Patrimoniului UNESCO. Evora este considerat printre orasele cu cel mai ridicat nivel de trai din Portugalia. 
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/evora.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== AZORE ====================-->
+            <section class="about section" id="azore">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Insulele Azore</h2>
+                        <p class="about__description">Arhipelagul Azore este format din 9 insule de origine vulcanica, situate in partea de nord a Oceanului Atlantic, la o distanta de aproximativ 1.500 km de coasta Portugaliei. Impreuna cu Madeira, formeaza cele doua Regiuni Autonome ale Portugaliei. Toate insulele au origine vulcanica insa, in unele cazuri, de exemplu Insula Santa Maria, nu s-au mai inregistrat activitati vulcanice de la momentul formarii arhipelagului.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/azore.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== REAL ====================-->
+            <section class="about section" id="real">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Vila Real</h2>
+                        <p class="about__description">Situat pe un promontoriu flancat de raurile Corgo si Cabril, Villa Real este oras si municipalitate din Regiunea Norte - Portugalia. Villa Real este clasat de publicatia Expresso pe locul 7 din punct de vedere al nivelului de trai in Portugalia. Spre nord si respectiv spre vest, orasul este strajuit de muntii Alvao si Marao. Villa Real este localitatea natala a exploratorului Diogo Cao care a descoperit in 1482 Fluviul Congo. Orasul este renumit prin una dintre cele mai reprezentative constructii in stil baroc - Palatul Mateus construit in 1745; deasemeni in zona centrala a orasului se regasesc o serie de cladiri construite in stil renascentist printre care si o impunatoare catedrala.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/real.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Tur Video</h2>
+
+                <div class="video__container container">
+                    
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">PORTUGALIA </h2>
+                        <p class="subscribe__description">Proiect realizat pentru atestat informatica 2023
+                        <br><br>Zupu Stefania<br>Florica Patricia</p>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 XII A</p>
+                    <div class="footer__terms">
+                        <a href="https://github.com/rares9301/HTML_projects" class="footer__terms-link">Open Source</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

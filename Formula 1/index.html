@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Istoria Formula 1</title>
+<link rel="stylesheet" href="styles/test.css">
+<link rel="stylesheet" href="styles/firstpage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="media/photos/f1icon.png" type="image/icon type">
+
+</head>
+<body>
+
+
+
+<div class="navbar">											
+  <a class = "currentlink" href="index.html" style="background-color: #010f26;">Acasa</a>
+  <a href="basics.html">F1?</a>
+  <a href="more.html">Istoric</a>
+</div>
+
+
+
+	
+<div class="navbar2">		
+	<div class = "dropdown">									
+		<button class="dropbtn"><img src="media/photos/menu.png" align="center" alt="menu" width = 70px height = 50px></button>
+
+		<div class="dropdown-content">
+		  <a href="index.html" style="background-color: #010f26;" >Acasa</a>
+		  
+		  <a href="basics.html">F1?</a>
+		  
+		  <a href="more.html">Istoric</a>
+		</div>
+	</div>  
+</div>
+	
+
+<div class = "header" >
+	<h1>F1
+				
+				<a href="index.html"><img src="media/photos/logo.png" align="center" alt="F1" width = 100px height = 60px></a>
+	</h1>
+	
+</div>
+<div class = "box" >
+		<label>
+			<input type = "checkbox" id = "ld" name = "ld">
+			<span></span>
+			<i class = "indicator"></i>
+		</label>
+	</div>
+<div class = "main">	
+<div class = "col-12 col-s-12" style = "height: 25px;">
+	&nbsp;
+</div>
+<div class = "col-12 col-s-12" style = "border-top: 2px solid black;">
+		
+	<p name = "color" style = "text-align: center"> Formula 1 (abreviată F1) este o întrecere de automobilism care se organizează anual sub forma a două campionate mondiale, care au loc în paralel, ambele fiind patronate de Federația Internațională a Automobilului (FIA).</p>	
+	<p  name = "color" style = "text-align: center"> Un sezon de Formula 1 constă dintr-o serie de curse, cunoscute sub numele de Mari Premii (Grands Prix)</p>
+		
+</div>		
+
+
+<div class = "col-12 col-s-12">
+	<img src="media/photos/image.webp" width = "100%">
+</div>
+
+</div>
+
+<div class = "col-12 col-s-12" style= "height:100px">
+&nbsp;
+</div>
+
+
+<div class = "col-12 col-s-12" style = "background-color: red;" align = center >
+	<div class = "footer" >
+		
+		<h3 >
+		
+			Rares Balcan &nbsp;			
+			<a href = "mailto:balcanrares@gmail.com"> 12A </a>
+			<br>
+			Ciprian Munteanu &nbsp;&nbsp;&nbsp;
+			<a href = "mailto:ciprianmunteanu@gmail.com"> 12A </a>
+			<br>
+			&nbsp;
+		</h3>
+		
+		<p>
+			<a href="index.html">Acasa</a>
+			<a href="basics.html">F1?</a>
+			<a href="more.html">Istoric</a>
+			
+		</p>
+			
+		<p>
+			<a>Copyright &copy;2023 </a>
+		</p>
+		
+		
+	</div>
+</div>
+
+<script>
+
+const checkbox = document.getElementById('ld')
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+      document.body.style.backgroundColor = "white";
+	  for(let i = 0; i < document.getElementsByName("color").length;i++)
+		document.getElementsByName("color")[i].style.color = "red";	  
+  } else {
+    document.body.style.backgroundColor = "black";
+	for(let i = 0; i < document.getElementsByName("color").length;i++)
+		document.getElementsByName("color")[i].style.color = "#ccc";
+  }
+})
+</script>
+</body>
+</html>

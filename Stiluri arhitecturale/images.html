@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Stiluri Arhitecturale</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Stiluri arhitecturale</a>
+            <ul>
+                <li><a href="proiect.html">Prezentare</a></li>
+                <li><a href="images.html" class="active">Imagini</a></li>
+                <li><a href="contact.html">Despre</a></li>
+            </ul>
+        </header>
+        <section>
+          <style>
+            p {
+
+              color: #fff;
+              margin-top: 50px;
+              margin-bottom: 50px;
+            }
+            </style>
+        <a href="#sec" id="btn">Galerie</a>
+        <p>Prin urmare, stilurile arhitecturale, sunt influențate sau determinate de istoria unei societăți și sunt documentate în obiect de istoria arhitecturii. În orice perioadă, se pot manifesta mai multe stiluri, chiar și atunci când un stil se schimbă, deoarece acest lucru se face treptat, pentru ca arhitecți să învețe și să se adapteze la noile idei.</p>
+        </section>
+        <div class="sec" id="sec">
+            <h2>Imagini</h2>
+          
+            <style>
+            
+                div.gallery {
+                    
+                  margin: 15px;
+                  border: 1px solid #fff;
+                  float: left;
+                  width: 180px;
+                }
+                
+                div.gallery:hover {
+                  border: 1px solid #fff;
+                }
+                
+                div.gallery img {
+                  width: 100%;
+                  height: auto;
+                }
+                
+                div.desc {
+                  padding: 15px;
+                  text-align: center;
+                  background: #42b2f3;
+                }
+                </style>
+                <body>
+                   
+                    <div class="gallery">
+                      <a target="_blank" href="stil1.jpg">
+                        <img src="stil1.jpg" alt="Catedrala din Reims" width="600" height="400">
+                      </a>
+                      <div class="desc"><p>Catedrala din Reims, in stil gotic</p></div>
+                    </div>
+                    
+                    <div class="gallery">
+                      <a target="_blank" href="stil2.jpg">
+                        <img src="stil2.jpg" alt="Biserica Sant'Ivo alla Sapienza din Roma" width="600" height="400">
+                      </a>
+                      <div class="desc"><p>Biserica Sant'Ivo alla Sapienza din Roma, în stil baroc</p></div>
+                    </div>
+                    
+                    <div class="gallery">
+                      <a target="_blank" href="stil3.jpg">
+                        <img src="stil3.jpg" alt="Palatul New York, Budapesta (Ungaria)" width="600" height="400">
+                      </a>
+                      <div class="desc"><p>Palatul New York, Budapesta (Ungaria), in stil electic</p></div>
+                    </div>
+                    
+                    <div class="gallery">
+                      <a target="_blank" href="stil4.jpg">
+                        <img src="stil4.jpg" alt="Biserica Sant'Ivo alla Sapienza" width="600" height="400">
+                      </a>
+                      <div class="desc"><p>Biserica Sant'Ivo alla Sapienza din Roma, in stil brutalic</p></div>
+                    </div>
+                    
+                    <div class="gallery">
+                      <a target="_blank" href="stil5.jpg">
+                        <img src="stil5.jpg" alt=" Théâtre des Champs-Élysées în Paris" width="600" height="400">
+                      </a>
+                      <div class="desc"><p> Théâtre des Champs-Élysées în Paris, in stil modern</p></div>
+                    </div>
+                    
+                    <div class="gallery">
+                      <a target="_blank" href="stil6.jpg">
+                        <img src="stil6.jpg" alt="Cariatidele Erehteionului din Acropola Ateniană" width="600" height="400">
+                      </a>
+                      <div class="desc"><p>Cariatidele Erehteionului din Acropola Ateniană, in stil clasic</p></div>
+                    </div>
+                    </body>
+        </div>
+        
+        <script>
+            
+            let btn = document.getElementById('btn');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function() {
+              let value = window.scrollY;
+                btn.style.marginTop = value * 0.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+    </html>

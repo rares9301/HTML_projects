@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Portugalia</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Portugalia</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Portugalia</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Informatii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Atractii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#details" class="nav__link">Detalii</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Descopera Portugalia</span>
+                        <h1 class="home__data-title">Atractii turistice. <br>  <b>Cele mai frumoase <br> peisaje</b></h1>
+                        <a href="#about" class="button">Exploreaza</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/stefi_zupu/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">cele mai frumoase 5 locuri de vizitat</span>
+                            <a href="#discover" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Informatii generale</h2>
+                        <p class="about__description">Portugalia ste o țară în Peninsula Iberică din Europa de Sud-Vest. Este cea mai vestică țară din Europa continentală. La vest și sud are coastă la Oceanul Atlantic, iar la est și nord se învecinează cu Spania. Frontiera dintre Portugalia și Spania⁠ are 1.214 km lungime și este considerată cea mai lungă graniță neîntreruptă în cadrul Uniunii Europene. Republica include, de asemenea, arhipelagurile Azore și Madeira din Atlantic, ambele regiuni autonome cu propriile lor guverne regionale⁠.
+                        </p>
+                        <a href="#discover" class="button">Atractii turistice</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Atractii turistice</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <div class="discover__card swiper-slide">
+                            <a href="#obidos"><img src="assets/img/discover1.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Obidos</h2>
+                                <span class="discover__description" >vechi oras medieval</span>
+                                
+                            </div>
+                        </div>
+   </div>
+                </div>
+            </section>
+
+            <section class="about section" id="obidos">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Obidos</h2>
+                        <p class="about__description">Situat in Districtul Leiria, orasul Obidos domina imprejurimile de pe dealul pe care este amplasat, impresionand cu zidul de aprare fortificat ce il inconjoara. Vechiul oras medieval impresioneaza cu strazi, piete, case si fortificatii tipice Evului Mediu care fac din Obidos o atractie turistica frecvent vizitata. Vedeta orasului este impresionantul castel al orasului, iar Praia del Rey este o destinatie de top pentru amatorii de golf. Renumelui orasului i se adauga si vestitul lichior de cirese - Ginjinha.
+                        </p>
+                    </div>
+<section class="video section">
+                <h2 class="section__title">Tur Video</h2>
+
+                <div class="video__container container">
+                    
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+<section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">PORTUGALIA </h2>
+                        <p class="subscribe__description">Proiect realizat pentru atestat informatica 2023
+                        <br><br>Zupu Stefania<br>Florica Patricia</p>
+                    </div>
+                </div>
+            </section>
+<footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 XII A</p>
+                    <div class="footer__terms">
+                        <a href="https://github.com/rares9301/HTML_projects" class="footer__terms-link">Open Source</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a> <script src="assets/js/scrollreveal.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+    </body>
+</html>

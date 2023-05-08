@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+    <html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Romania</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Romania</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Romania</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Informatii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Atractii</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#obidos" class="nav__link">Detalii</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Descopera Romania</span>
+                        <h1 class="home__data-title">Atractii turistice. <br>  <b>Cele mai frumoase <br> peisaje</b></h1>
+                        <a href="#about" class="button">Exploreaza</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/blackmore_66/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">cele mai frumoase 5 locuri de vizitat</span>
+                            <a href="#discover" class="button button--flex button--link home__info-button">
+                                More <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Informatii generale</h2>
+                        <p class="about__description">România este un stat situat în sud-estul Europei Centrale, pe cursul inferior al Dunării, la nord de peninsula Balcanică și la țărmul nord-vestic al Mării Negre. Pe teritoriul ei este situată aproape toată suprafața Deltei Dunării și partea sudică și centrală a Munților Carpați. Se învecinează cu Bulgaria la sud, Serbia la sud-vest, Ungaria la nord-vest, Ucraina la nord și est și Republica Moldova la est, iar țărmul Mării Negre se găsește la sud-est.
+                        </p>
+                        <a href="#discover" class="button">Atractii turistice</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Atractii turistice</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#bran"><img src="assets/img/discover1.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Castelul Bran</h2>
+                                <span class="discover__description" >vechi oras medieval</span>
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#sighisoara"><img src="assets/img/discover2.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sighisoara</h2>
+                                <span class="discover__description">centrul istoric</span>\
+                                
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#parlament"><img src="assets/img/discover3.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Palatul Parlamentului</h2>
+                                <span class="discover__description">cea mai mare cladire administrativa</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#peles"><img src="assets/img/discover4.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Casteul Peles</h2>
+                                <span class="discover__description">castel neo-renascentis</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 5 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#cimitir"><img src="assets/img/discover5.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Cimitirul Vesel</h2>
+                                <span class="discover__description">cimitir colorat</span>
+                            </div>
+                        </div>
+                        <!--==================== DISCOVER 6 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#sibiu"><img src="assets/img/discover6.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sibiu</h2>
+                                <span class="discover__description">Piata Mare din Sibiu</span>
+                            </div>
+                            </div>
+                        <!--==================== DISCOVER 7 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#biertan"><img src="assets/img/discover7.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Biertan</h2>
+                                <span class="discover__description">Biserica Fortificata din Biertan</span>
+                            </div> </div>
+                        <!--==================== DISCOVER 8 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#carpati"><img src="assets/img/discover8.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Carpatii Meridionali</h2>
+                                <span class="discover__description">Transilvania</span>
+                            </div> </div>-
+                        <!--==================== DISCOVER 9 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#salina"><img src="assets/img/discover9.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title">Salina Turda</h2>
+                                <span class="discover__description">salina</span>
+                            </div> </div>
+                        <!--==================== DISCOVER 10 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <a href="#sucevita"><img src="assets/img/discover10.jpg" alt="" class="discover__img"></a>
+                            <div class="discover__data">
+                                <h2 class="discover__title"> Manastirea Sucevita</h2>
+                                <span class="discover__description">manastire stil bizantin</span>
+                            </div> </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BRAN ====================-->
+            <section class="about section" id="bran">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Castelul Bran</h2>
+                        <p class="about__description">Castelul Bran este adesea asociat ca si resedinta contelui Dracula, desi nu exista nici o dovada ca autorul romanului, Bram Stoker stia de existenta acestui castel medieval. Castelul, o piese de rezistenta a culturii romanesti, are o tenta de poveste datorita locatiei sale, pe varful unui deal, intr-o padure din Brasov. Cu o istorie din secolul 13, acest castel medieval este astazi un muzeu, care expune piesele de arta si mobila colectionate de catre regina Maria. Gazduieste de asemenea un muzeu in aer liber, care expune casele traditionale romanesti, de-a lungul secolelor.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/bran.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SIGHISOARA ====================-->
+            <section class="about section" id="sighisoara">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Centrul Istoric al Sighisoarei</h2>
+                        <p class="about__description">Daca ai preconceptii despre cum era viata medievala, atunci sunt sigur ca centrul istoric al Sighisoarei iti va elimina orice urma de indoiala. Centrul vechi al Sighisoarei este cu adevarat medieval, in toata puterea cuvantului. Fondat in secolul 12 de catre saxoni, Sighisoara este exemplul perfect al unui oras medieval fortificat. Are strazile traditionale inguste, inconjurate pe de-o parte si alta de cladiri colorate din piatra. Aici este locul nasterii lui Vlad Tepes, inspiratia lui Bram Stoker pentru personajul Dracula. Sighisoara sarbatoreste in fiecare iulie orasul medieval.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/sighisoara.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== PARLAMENT ====================-->
+            <section class="about section" id="parlament">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Palatul Parlamentului</h2>
+                        <p class="about__description">Intr-o tara unde cladirile medievale sunt in abundenta, a fost construit Palatul Parlamentului, care nu are nici o urma de medieval. Este o cladire extrem de complexa si este considerata cea mai mare cladire administrativa din lume. Au fost nevoie de 20000 de muncitori, care au lucrat aproape non-stop timp de 13 ani pentru a fi construit. Este o minune arhitecturala, care a imlicat peste 700 de arhitecti si designeri. Palatul este o atractie principala pentru turistii veniti in Bucuresti, insa nu este atat de popular pentru romani, fiind construit de liderul comunist, Nicolae Ceausescu.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/parlament.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== PELES ====================-->
+            <section class="about section" id="peles">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Castelul Peles</h2>
+                        <p class="about__description">Intr-o tara unde cladirile medievale sunt in abundenta, a fost construit Palatul Parlamentului, care nu are nici o urma de medieval. Este o cladire extrem de complexa si este considerata cea mai mare cladire administrativa din lume. Au fost nevoie de 20000 de muncitori, care au lucrat aproape non-stop timp de 13 ani pentru a fi construit. Este o minune arhitecturala, care a imlicat peste 700 de arhitecti si designeri. Palatul este o atractie principala pentru turistii veniti in Bucuresti, insa nu este atat de popular pentru romani, fiind construit de liderul comunist, Nicolae Ceausescu.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/peles.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== CIMITIR ====================-->
+            <section class="about section" id="cimitir">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Cimitirul Vesel</h2>
+                        <p class="about__description">Intr-o tara unde cladirile medievale sunt in abundenta, a fost construit Palatul Parlamentului, care nu are nici o urma de medieval. Este o cladire extrem de complexa si este considerata cea mai mare cladire administrativa din lume. Au fost nevoie de 20000 de muncitori, care au lucrat aproape non-stop timp de 13 ani pentru a fi construit. Este o minune arhitecturala, care a imlicat peste 700 de arhitecti si designeri. Palatul este o atractie principala pentru turistii veniti in Bucuresti, insa nu este atat de popular pentru romani, fiind construit de liderul comunist, Nicolae Ceausescu.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/cimitir.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SIBIU ====================-->
+            <section class="about section" id="sibiu">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Piata Mare din Sibiu</h2>
+                        <p class="about__description">Inconjurata de cladiri medievale, Piata Mare este un loc ce trebuie neaparat vizitat in Sibiu. Initial a fost o piata de cereale in secolul 15, in jurul careia au incepur construcii din ce in ce mai fastuoase. Piata Mare era un loc de adunare, festivale sau chiar decapitari.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/sibiu.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== BIERTAN ====================-->
+            <section class="about section" id="biertan">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Biserica Fortificata din Biertan</h2>
+                        <p class="about__description">Biserica Fortificata din Biertan este cu mult mai impresionatna decat orice alta cladire din Biertan. Initial a fost o biserica catolica atunci cand regiunea ii apartinea Ungariei. Insa, cu timpul a devenit biserica luterana dupa marea reforma. In schimbul construirii unei fortarete de aparare impotriva Imperiului Otoman, locuitorii au decis sa fortifice biserica. Constuita in stilul gotic, este una dintre cele mai mare biserici fortificate din Romania. 
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/biertan.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== CARPATI ====================-->
+            <section class="about section" id="carpati">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Carpatii Meridionali</h2>
+                        <p class="about__description">Alpii Transilvaniei, cunoscuti sub numele de Carpatii Meridionali, nu sunt chiar atat de inalti cat muntii Stancosi sau Himalaya, avand de obicei sub 2000 de metri inaltime. Exceptie fiind Varful Moldoveanu, la 2544 de metri, cel mai inalt punct din Romania. 
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/carpati.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== AZORE ====================-->
+            <section class="about section" id="salina">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Salina Turda</h2>
+                        <p class="about__description">Daca ai impresia ca lucrezi ca intr-o mina acasa, atunci cred ca o sa te simti bine in Salina Turda. Aceasta mina de sare, care dateaza din secolul 17, a fost folosita pentru aproape orice, de la centru de stocare a branzeturilor, pana la adapost de bombardamentele din al doilea razboi mondial. Astazi, a fost transformata intr-un incredibil parc tematic SF. Localizata in judetul Cluj, Salina Turda a fost numita unul dintre cele mai interesante locuri de sub pamant. La 120 de metri sub pamant vei gasi un amfiteatru, o pista de bowling, un lac cu barci si chiar un parc de distractii.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/salina.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== REAL ====================-->
+            <section class="about section" id="sucevita">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Manastirea Sucevita</h2>
+                        <p class="about__description">Manastirea Sucevita are o arhitectura unica, fara indoiala. Este singura biserica ce imbina stilurile gotic, bizantin si picturile caracteristice, pentru a forma o cladire spectaculoasa. Fatada este cilindrica, cu un acoperis conic, in timp ce spatele este dreptunghiular cu o turla mica. Inauntru, vei gasi picturi murale din anii 1600 si broderii cu fir de argint. Manastirea, localizata in nord-estul Romaniei, este considerata una dintre cele mai importante biserici pictate din Moldova.
+                        </p>
+                    </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/sucevita.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Tur Video</h2>
+
+                <div class="video__container container">
+                    
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">ROMANIA </h2>
+                        <p class="subscribe__description">Proiect realizat pentru atestat informatica 2023
+                        <br><br>Pavlicu Patrick Filip<br>Marchel Lucian</p>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2023 XII A</p>
+                    <div class="footer__terms">
+                        <a href="https://github.com/rares9301/HTML_projects" class="footer__terms-link">Open Source</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
